@@ -26,11 +26,11 @@ public class Assignment72 {
 	
 	}
 }
-@Info(AuthorId=0,developersName="ddscbdhc",developerSupervisor="jdnjnc",date="22",time="edd",version=0)
+@Info(AuthorId=0,developersName="wang",developerSupervisor="lee",date="18",time="nine",version=0)
 class Developers{
    
 	  public void Method(){
-	        System.out.println("Hello");
+	        System.out.println("Namaste");
 	    }
 	
    

@@ -22,7 +22,7 @@ class Database {
 	   }
 
 	   public void getConnection() {
-	       System.out.println("You are now connected to the database.");
+	       System.out.println("Now you are connected to the database.");
 
 	}
 

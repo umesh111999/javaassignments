@@ -9,7 +9,7 @@ public class Assignment52 {
 		}
 		private static void test() {
 			Scanner sc = new Scanner(System.in);
-			String a[] = {"Hello","Goodbye"};
+			String a[] = {"Namaste","Welcome"};
 			swap(a, 0, 1);
 			System.out.println("a:"+Arrays.toString(a));
 			

@@ -12,17 +12,17 @@ public class Assignment85 {
 
 
         List<String> list1 = new ArrayList<>();
-        list1.add("lower");
-        list1.add("case");
-        list1.add("turned");
-        list1.add("upper");
-        list1.add("case");
+        list1.add("rana");
+        list1.add("nithish");
+        list1.add("russel");
+        list1.add("yadav");
+        list1.add("ambati");
 
-        System.out.println("Before using replaceALL:");
+        System.out.println("Before using the replaceALL:");
         System.out.println(list1);
 
         list1.replaceAll(str->str.toUpperCase());
-        System.out.println("After using replace all: ");
+        System.out.println("After using the replace all: ");
         System.out.println(list1);
     }
 

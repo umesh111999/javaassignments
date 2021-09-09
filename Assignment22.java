@@ -5,16 +5,16 @@ public class Assignment22 {
 	public static void main(String[] args) {
 	}
 }
-abstract class Abs{
+abstract class Abst1{
 	abstract void speed();
 }
-class Abs2 extends Abs{
+class Abst2 extends Abst1{
 	@Override
 	void speed() {
 	}
 	
 }
-abstract class Abs3{
+abstract class Abst3{
 	public void run() {
 		
 	}

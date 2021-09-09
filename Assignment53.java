@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Assignment53 {
 	public static void main(String[] args){
 		Pair1<String,String>obj = new Pair1<>();
-	 	Scanner ys = new Scanner (System.in);
-		String obj1 = ys.nextLine();
-		obj.setKey(obj1);
+	 	Scanner sn = new Scanner (System.in);
+		String object1 = sn.nextLine();
+		obj.setKey(object1);
 		System.out.println(obj.getKey());
-		String obj2 = ys.nextLine();
-		obj.setValue(obj2);
+		String object2 = sn.nextLine();
+		obj.setValue(object2);
 		System.out.println(obj.getValue());
 	}
 }

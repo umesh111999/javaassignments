@@ -4,7 +4,7 @@ public class Assignment54 {
  public static void main(String[] args) {
 			Pairs<String,Date> obj = new Pairs<>();
 		 
-			obj.setKey("888");
+			obj.setKey("100");
 			System.out.println(obj.getKey());
 			
 			obj.setValue(new Date(0));

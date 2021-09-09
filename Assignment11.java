@@ -17,10 +17,10 @@ public class Assignment11 {
        	inputNumber/=10;
         }
         if(temp==sum) {
-       	 System.out.println(temp+ " is Armstrong......!");
+       	 System.out.println(temp+ " is Armstrong number......!");
         }
        	 else {
-       		 System.out.println(temp+ " is not Armstrong....");
+       		 System.out.println(temp+ " is not Armstrong number....");
         }
 
 	}

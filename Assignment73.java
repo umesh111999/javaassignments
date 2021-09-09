@@ -17,15 +17,15 @@ import java.lang.annotation.Target;
 class Det{
 	@Execute(sequence=2)
 	void developer() {
-		System.out.println("ahsbdhjc");
+		System.out.println("spider");
 	}
 	@Execute(sequence=1)
 	void developer2(){
-		System.out.println("bhsbdhjc");
+		System.out.println("elis");
 	}
 	@Execute(sequence=3)
 	void developer3(){
-		System.out.println("dhsbdcdsc");
+		System.out.println("smriti");
 	}
 }
 public class Assignment73 {

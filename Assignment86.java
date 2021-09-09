@@ -9,16 +9,16 @@ public class Assignment86 {
 
         HashMap<Integer,String > hashMap1 = new HashMap<>();
 
-        hashMap1.put(1,"first");
-        hashMap1.put(2,"second");
-        hashMap1.put(3,"third");
-        hashMap1.put(4,"fourth");
-        hashMap1.put(5,"fifth");
+        hashMap1.put(1,"king");
+        hashMap1.put(2,"queen");
+        hashMap1.put(3,"minister");
+        hashMap1.put(4,"worker");
+        hashMap1.put(5,"buisiness");
 
-        Set s = hashMap1.entrySet();
+        Set l = hashMap1.entrySet();
         StringBuilder str = new StringBuilder();
 
-        s.forEach(str1->str.append(str1));
+        l.forEach(str1->str.append(str1));
 
         System.out.println(str);
 

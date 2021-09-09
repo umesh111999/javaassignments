@@ -10,13 +10,13 @@ public class Assignment83 {
 
         List<String> list1 = new ArrayList<String>();
 
-        list1.add("hello");
-        list1.add("hello world");
-        list1.add("hello guys");
-        list1.add("hello fellows");
-        list1.add("hello team");
-        list1.add("hello people");
-        list1.add("hello students");
+        list1.add("wang");
+        list1.add("spider man");
+        list1.add("wang lee");
+        list1.add("wang shee");
+        list1.add("wang ma");
+        list1.add("wang lo");
+        list1.add("wang tho");
         list1.removeIf(s->s.length()%2!=0);
 
         list1.forEach(System.out::println);

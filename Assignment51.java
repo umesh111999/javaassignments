@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class Assignment51 {
 	public static void main(String[] args) {
 		HashMap<Integer,Double> keys = new HashMap<>();
-		Scanner ys = new Scanner(System.in);
+		Scanner sn= new Scanner(System.in);
 		for(int i =0;i<10;i++)
 		{ 
-			int key= ys.nextInt();
-			Double value = ys.nextDouble();
+			int key= sn.nextInt();
+			Double value = sn.nextDouble();
 			keys.put(key,value);
 		}
      System.out.println("Mapped elements are: ");
-     for(Map.Entry m : keys.entrySet()) {
-    	 System.out.println(m.getKey()+" "+m.getValue());
+     for(Map.Entry s : keys.entrySet()) {
+    	 System.out.println(s.getKey()+" "+s.getValue());
      }
 }
 }

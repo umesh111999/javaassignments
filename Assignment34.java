@@ -3,9 +3,9 @@ package one;
 public class Assignment34 {
 
 	public static void main(String[] args) {
-		 String str = new String("Hello World");
+		 String str = new String("hey haii");
 	     int len =str.length();
-	     System.out.println("Length of the string is : " +len);
+	     System.out.println("string length is : " +len);
 
 	}
 

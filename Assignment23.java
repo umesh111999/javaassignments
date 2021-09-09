@@ -19,19 +19,19 @@ class Shape{
 }
 class Line extends Shape{
 	public void draw() {
-		System.out.println("The drawn shape is Line");
+		System.out.println("drawn shape is Line");
 	}
 }
 class Rectangle extends Shape{
 	public void draw() {
-		System.out.println("The drawn shape is Rectangle");
+		System.out.println("drawn shape is Rectangle");
 }
 }
 class Cube extends Shape{
 	public void draw() {
-		System.out.println("The drawn shape is Cube");
+		System.out.println("drawn shape is Cube");
 }
 
-	}
+}
 
 

@@ -6,8 +6,8 @@ public class Assignment33 {
 		 StringBuffer s = new StringBuffer("StringBuffer");
 	        System.out.println("string:  "+s);
 
-	        StringBuffer s2 = new StringBuffer("this method returns reversed string");
-	        System.out.println(s2.reverse());
+	        StringBuffer s1 = new StringBuffer("it gives the reverse of a string");
+	        System.out.println(s1.reverse());
 
 	}
 

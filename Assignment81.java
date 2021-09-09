@@ -9,18 +9,18 @@ public class Assignment81 {
 		addinf funmul = (a,b) -> a*b;
 		
 		int a = funadd.call(8, 8);
-		int d = fundiv.call(8, 8);
-		int s = funsub.call(8, 8);
-		int m = funmul.call(8, 8);
-		System.out.println("------------------lambda functions---------------");
-		System.out.println("------------------------add-------------------");
+		int l = fundiv.call(8, 8);
+		int m = funsub.call(8, 8);
+		int n = funmul.call(8, 8);
+		System.out.println("lambda functions");
+		System.out.println("addition");
 		System.out.println(a);
-		System.out.println("-----------------------div----------------------");
-		System.out.println(d);
-		System.out.println("----------------------sub----------------------");
-		System.out.println(s);
-		System.out.println("------------------mul----------------------");
+		System.out.println("division");
+		System.out.println(l);
+		System.out.println("sub");
 		System.out.println(m);
+		System.out.println("mult");
+		System.out.println(n);
 		
 
 	}

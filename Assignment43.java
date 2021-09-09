@@ -15,11 +15,11 @@ class IllegalBankTransactionException extends Exception{
 }
 class Balance {
 	public void withdraw() {
-	Scanner availB=new Scanner(System.in);
+	Scanner availBal=new Scanner(System.in);
 	System.out.println("Enter Available balance: ");
-	int availableBalance = availB.nextInt();
+	int availableBalance = availBal.nextInt();
 	System.out.println("Enter amount to withdraw: ");
-	int inputamount=availB.nextInt();
+	int inputamount=availBal.nextInt();
 	
 		try {
 			
@@ -30,7 +30,7 @@ class Balance {
 				throw new IllegalBankTransactionException();
 			}
 			else {
-				System.out.println("success");
+				System.out.println("process is success");
 			}
 			     
 			}catch(IllegalBankTransactionException | InsufficientBalanceException e){
